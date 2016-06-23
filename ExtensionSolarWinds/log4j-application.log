@@ -1,0 +1,1578 @@
+2016-06-20 20:11:14 DEBUG CriaAlertaSolarwinds:37 - This is debug
+2016-06-20 20:13:42 DEBUG CriaAlertaSolarwinds:37 - Pametros
+2016-06-20 20:13:42 DEBUG CriaAlertaSolarwinds:39 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-20 20:13:42 DEBUG CriaAlertaSolarwinds:39 - Args[1]=/exceptionSql
+2016-06-20 20:13:42 DEBUG CriaAlertaSolarwinds:39 - Args[2]=ERROR
+2016-06-20 20:13:42 DEBUG CriaAlertaSolarwinds:39 - Args[3]=Erros triggered at Fri Jun 17 10:59:55 BRT 2016. This policy was violated because the following conditions were met for the /exceptionSql Business Transaction for the last 5 minute(s): For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 16.0
+2016-06-20 20:13:42 DEBUG CriaAlertaSolarwinds:39 - Args[4]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-20 20:26:06 DEBUG CriaAlertaSolarwinds:37 - Parametros
+2016-06-20 20:26:07 DEBUG CriaAlertaSolarwinds:39 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-20 20:26:07 DEBUG CriaAlertaSolarwinds:39 - Args[1]=/exceptionSql
+2016-06-20 20:26:07 DEBUG CriaAlertaSolarwinds:39 - Args[2]=ERROR
+2016-06-20 20:26:07 DEBUG CriaAlertaSolarwinds:39 - Args[3]=Erros triggered at Fri Jun 17 10:59:55 BRT 2016. This policy was violated because the following conditions were met for the /exceptionSql Business Transaction for the last 5 minute(s): For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 16.0
+2016-06-20 20:26:07 DEBUG CriaAlertaSolarwinds:39 - Args[4]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-20 20:26:07 INFO  CriaAlertaSolarwinds:43 - Carrega properties
+2016-06-20 20:26:07 DEBUG CriaAlertaSolarwinds:115 - Valores config.properties
+2016-06-20 20:26:07 DEBUG CriaAlertaSolarwinds:127 - BDSolawinds192.168.56.71
+2016-06-20 20:26:07 DEBUG CriaAlertaSolarwinds:128 - UserDBSolarwindsSolarWindsOrionDatabaseUser
+2016-06-20 20:26:07 DEBUG CriaAlertaSolarwinds:129 - PassDBSolarwinds@syrix123
+2016-06-20 20:26:07 DEBUG CriaAlertaSolarwinds:130 - AlertObjectappdynamics
+2016-06-20 20:26:07 INFO  CriaAlertaSolarwinds:49 - Inicia Conexão do Banco de Dados
+2016-06-20 20:26:22 ERROR CriaAlertaSolarwinds:105 - Erro de SQL
+2016-06-20 20:28:06 DEBUG CriaAlertaSolarwinds:37 - Parametros
+2016-06-20 20:28:06 DEBUG CriaAlertaSolarwinds:39 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-20 20:28:06 DEBUG CriaAlertaSolarwinds:39 - Args[1]=/exceptionSql
+2016-06-20 20:28:06 DEBUG CriaAlertaSolarwinds:39 - Args[2]=ERROR
+2016-06-20 20:28:06 DEBUG CriaAlertaSolarwinds:39 - Args[3]=Erros triggered at Fri Jun 17 10:59:55 BRT 2016. This policy was violated because the following conditions were met for the /exceptionSql Business Transaction for the last 5 minute(s): For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 16.0
+2016-06-20 20:28:06 DEBUG CriaAlertaSolarwinds:39 - Args[4]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-20 20:28:06 INFO  CriaAlertaSolarwinds:43 - Carrega properties
+2016-06-20 20:28:06 DEBUG CriaAlertaSolarwinds:115 - Valores config.properties
+2016-06-20 20:28:06 DEBUG CriaAlertaSolarwinds:127 - BDSolawinds=192.168.56.71
+2016-06-20 20:28:06 DEBUG CriaAlertaSolarwinds:128 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-20 20:28:06 DEBUG CriaAlertaSolarwinds:129 - PassDBSolarwinds=@syrix123
+2016-06-20 20:28:06 DEBUG CriaAlertaSolarwinds:130 - AlertObject=appdynamics
+2016-06-20 20:28:06 INFO  CriaAlertaSolarwinds:49 - Inicia Conexão do Banco de Dados
+2016-06-20 20:28:21 ERROR CriaAlertaSolarwinds:105 - Erro de SQL=com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host 192.168.56.71, port 1433 has failed. Error: "connect timed out. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+2016-06-20 20:29:02 DEBUG CriaAlertaSolarwinds:37 - Parametros
+2016-06-20 20:29:02 DEBUG CriaAlertaSolarwinds:39 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-20 20:29:02 DEBUG CriaAlertaSolarwinds:39 - Args[1]=/exceptionSql
+2016-06-20 20:29:02 DEBUG CriaAlertaSolarwinds:39 - Args[2]=ERROR
+2016-06-20 20:29:02 DEBUG CriaAlertaSolarwinds:39 - Args[3]=Erros triggered at Fri Jun 17 10:59:55 BRT 2016. This policy was violated because the following conditions were met for the /exceptionSql Business Transaction for the last 5 minute(s): For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 16.0
+2016-06-20 20:29:02 DEBUG CriaAlertaSolarwinds:39 - Args[4]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-20 20:29:02 INFO  CriaAlertaSolarwinds:43 - Carrega properties
+2016-06-20 20:29:02 DEBUG CriaAlertaSolarwinds:115 - Valores config.properties
+2016-06-20 20:29:02 DEBUG CriaAlertaSolarwinds:127 - BDSolawinds=192.168.56.71
+2016-06-20 20:29:02 DEBUG CriaAlertaSolarwinds:128 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-20 20:29:02 DEBUG CriaAlertaSolarwinds:129 - PassDBSolarwinds=@syrix123
+2016-06-20 20:29:02 DEBUG CriaAlertaSolarwinds:130 - AlertObject=appdynamics
+2016-06-20 20:29:02 INFO  CriaAlertaSolarwinds:49 - Inicia Conexão do Banco de Dados
+2016-06-20 20:29:17 ERROR CriaAlertaSolarwinds:105 - Erro de SQL=com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host 192.168.56.71, port 1433 has failed. Error: "connect timed out. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+2016-06-20 20:29:41 ERROR CriaAlertaSolarwinds:105 - Erro de SQL=com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host 192.168.56.71, port 1433 has failed. Error: "connect timed out. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+2016-06-20 20:30:02 ERROR CriaAlertaSolarwinds:105 - Erro de SQL=com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host 192.168.56.71, port 1433 has failed. Error: "connect timed out. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+2016-06-20 20:30:40 ERROR CriaAlertaSolarwinds:105 - Erro de SQL=com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host 192.168.56.71, port 1433 has failed. Error: "connect timed out. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+2016-06-20 20:30:45 INFO  CriaAlertaSolarwinds:43 - Carrega properties
+2016-06-20 20:30:45 INFO  CriaAlertaSolarwinds:49 - Inicia Conexão do Banco de Dados
+2016-06-20 20:31:00 ERROR CriaAlertaSolarwinds:105 - Erro de SQL=com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host 192.168.56.71, port 1433 has failed. Error: "connect timed out. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+2016-06-20 20:43:34 INFO  CriaAlertaSolarwinds:83 - Carrega properties
+2016-06-20 20:43:35 INFO  CriaAlertaSolarwinds:89 - Inicia Conexão do Banco de Dados
+2016-06-20 20:43:50 ERROR CriaAlertaSolarwinds:145 - Erro de SQL=com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host 192.168.56.71, port 1433 has failed. Error: "connect timed out. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+2016-06-20 20:45:45 INFO  CriaAlertaSolarwinds:83 - Carrega properties
+2016-06-20 20:45:45 INFO  CriaAlertaSolarwinds:89 - Inicia Conexão do Banco de Dados
+2016-06-20 20:46:00 ERROR CriaAlertaSolarwinds:145 - Erro de SQL=com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host 192.168.56.71, port 1433 has failed. Error: "connect timed out. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+2016-06-20 20:46:32 INFO  CriaAlertaSolarwinds:83 - Carrega properties
+2016-06-20 20:46:32 INFO  CriaAlertaSolarwinds:89 - Inicia Conexão do Banco de Dados
+2016-06-20 20:46:47 ERROR CriaAlertaSolarwinds:145 - Erro de SQL=com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host 192.168.56.71, port 1433 has failed. Error: "connect timed out. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+2016-06-20 20:47:43 INFO  CriaAlertaSolarwinds:83 - Carrega properties
+2016-06-20 20:47:43 INFO  CriaAlertaSolarwinds:89 - Inicia Conexão do Banco de Dados
+2016-06-20 20:47:43 ERROR CriaAlertaSolarwinds:145 - Erro de SQL=com.microsoft.sqlserver.jdbc.SQLServerException: The connection string contains a badly formed name or value.
+2016-06-20 20:48:58 INFO  CriaAlertaSolarwinds:90 - Carrega properties
+2016-06-20 20:48:58 INFO  CriaAlertaSolarwinds:96 - Inicia Conexão do Banco de Dados
+2016-06-20 20:48:58 ERROR CriaAlertaSolarwinds:152 - Erro de SQL=com.microsoft.sqlserver.jdbc.SQLServerException: The connection string contains a badly formed name or value.
+2016-06-20 20:49:14 INFO  CriaAlertaSolarwinds:90 - Carrega properties
+2016-06-20 20:49:14 INFO  CriaAlertaSolarwinds:96 - Inicia Conexão do Banco de Dados
+2016-06-20 20:49:14 ERROR CriaAlertaSolarwinds:152 - Erro de SQL=com.microsoft.sqlserver.jdbc.SQLServerException: The connection string contains a badly formed name or value.
+2016-06-20 21:03:11 INFO  CriaAlertaSolarwinds:83 - Carrega properties
+2016-06-20 21:03:11 INFO  CriaAlertaSolarwinds:89 - Inicia Conexão do Banco de Dados
+2016-06-20 21:03:11 ERROR CriaAlertaSolarwinds:145 - Erro de SQL=com.microsoft.sqlserver.jdbc.SQLServerException: The connection string contains a badly formed name or value.
+2016-06-20 21:05:33 INFO  CriaAlertaSolarwinds:76 - Carrega properties
+2016-06-20 21:05:33 INFO  CriaAlertaSolarwinds:82 - Inicia Conexão do Banco de Dados
+2016-06-20 21:05:48 ERROR CriaAlertaSolarwinds:138 - Erro de SQL=com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host 192.168.56.71, port 1433 has failed. Error: "connect timed out. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+2016-06-20 21:06:01 DEBUG CriaAlertaSolarwinds:48 - Parametros
+2016-06-20 21:06:01 DEBUG CriaAlertaSolarwinds:50 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-20 21:06:01 DEBUG CriaAlertaSolarwinds:50 - Args[1]=/exceptionSql
+2016-06-20 21:06:01 DEBUG CriaAlertaSolarwinds:50 - Args[2]=ERROR
+2016-06-20 21:06:01 DEBUG CriaAlertaSolarwinds:50 - Args[3]=Erros triggered at Fri Jun 17 10:59:55 BRT 2016. This policy was violated because the following conditions were met for the /exceptionSql Business Transaction for the last 5 minute(s): For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 16.0
+2016-06-20 21:06:01 DEBUG CriaAlertaSolarwinds:50 - Args[4]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-20 21:06:01 INFO  CriaAlertaSolarwinds:76 - Carrega properties
+2016-06-20 21:06:01 DEBUG CriaAlertaSolarwinds:148 - Valores config.properties
+2016-06-20 21:06:01 DEBUG CriaAlertaSolarwinds:174 - BDSolawinds=192.168.56.71
+2016-06-20 21:06:01 DEBUG CriaAlertaSolarwinds:175 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-20 21:06:01 DEBUG CriaAlertaSolarwinds:176 - PassDBSolarwinds=@syrix123
+2016-06-20 21:06:01 DEBUG CriaAlertaSolarwinds:177 - AlertObject=appdynamics
+2016-06-20 21:06:01 INFO  CriaAlertaSolarwinds:82 - Inicia Conexão do Banco de Dados
+2016-06-20 21:06:16 ERROR CriaAlertaSolarwinds:138 - Erro de SQL=com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host 192.168.56.71, port 1433 has failed. Error: "connect timed out. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+2016-06-20 21:06:30 DEBUG CriaAlertaSolarwinds:48 - Parametros
+2016-06-20 21:06:30 DEBUG CriaAlertaSolarwinds:50 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-20 21:06:30 DEBUG CriaAlertaSolarwinds:50 - Args[1]=/exceptionSql
+2016-06-20 21:06:30 DEBUG CriaAlertaSolarwinds:50 - Args[2]=ERROR
+2016-06-20 21:06:30 DEBUG CriaAlertaSolarwinds:50 - Args[3]=Erros triggered at Fri Jun 17 10:59:55 BRT 2016. This policy was violated because the following conditions were met for the /exceptionSql Business Transaction for the last 5 minute(s): For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 16.0
+2016-06-20 21:06:30 DEBUG CriaAlertaSolarwinds:50 - Args[4]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-20 21:06:30 INFO  CriaAlertaSolarwinds:76 - Carrega properties
+2016-06-20 21:06:30 DEBUG CriaAlertaSolarwinds:148 - Valores config.properties
+2016-06-20 21:06:30 DEBUG CriaAlertaSolarwinds:161 - BDSolawinds=192.168.56.71
+2016-06-20 21:06:30 DEBUG CriaAlertaSolarwinds:162 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-20 21:06:30 DEBUG CriaAlertaSolarwinds:163 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-20 21:06:30 DEBUG CriaAlertaSolarwinds:164 - AlertObject=appdynamics
+2016-06-20 21:06:30 INFO  CriaAlertaSolarwinds:82 - Inicia Conexão do Banco de Dados
+2016-06-20 21:06:45 ERROR CriaAlertaSolarwinds:138 - Erro de SQL=com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host 192.168.56.71, port 1433 has failed. Error: "connect timed out. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:49 - Parametros
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[1]=14
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[3]=1
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[4]=ERROR
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[5]=Solar
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[6]=Erros
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[7]=75
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[8]=5
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[9]=BUSINESS_TRANSACTION
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[10]=/exception
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[11]=137
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[12]=1
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[13]=APPLICATION
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[15]=14
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[16]=1
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[17]=APPLICATION
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[19]=14
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[20]=condition 1
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[21]=274
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[22]=GREATER_THAN
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[23]=ABSOLUTE
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[24]=2.0
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[25]=10.0
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[27]=106
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[30]=ACCOUNT
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:51 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-21 22:01:29 INFO  CriaAlertaSolarwinds:80 - Carrega properties
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:152 - Valores config.properties
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:165 - BDSolawinds=192.168.56.71
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:166 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:167 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-21 22:01:29 DEBUG CriaAlertaSolarwinds:168 - AlertObject=appdynamics
+2016-06-21 22:01:29 INFO  CriaAlertaSolarwinds:86 - Inicia Conexão do Banco de Dados
+2016-06-21 22:01:29 ERROR CriaAlertaSolarwinds:142 - Erro de SQL=com.microsoft.sqlserver.jdbc.SQLServerException: The driver could not establish a secure connection to SQL Server by using Secure Sockets Layer (SSL) encryption. Error: "Signature algorithm mismatch". ClientConnectionId:374e9b1f-36fb-409d-b695-4fc5a2e81395
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:49 - Parametros
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[1]=14
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[3]=1
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[4]=ERROR
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[5]=Solar
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[6]=Erros
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[7]=75
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[8]=5
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[9]=BUSINESS_TRANSACTION
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[10]=/exception
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[11]=137
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[12]=1
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[13]=APPLICATION
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[15]=14
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[16]=1
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[17]=APPLICATION
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[19]=14
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[20]=condition 1
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[21]=274
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[22]=GREATER_THAN
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[23]=ABSOLUTE
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[24]=2.0
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[25]=10.0
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[27]=106
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[30]=ACCOUNT
+2016-06-21 22:02:51 DEBUG CriaAlertaSolarwinds:51 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-21 22:03:00 INFO  CriaAlertaSolarwinds:80 - Carrega properties
+2016-06-21 22:03:00 DEBUG CriaAlertaSolarwinds:152 - Valores config.properties
+2016-06-21 22:03:00 DEBUG CriaAlertaSolarwinds:165 - BDSolawinds=192.168.56.71
+2016-06-21 22:03:00 DEBUG CriaAlertaSolarwinds:166 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-21 22:03:00 DEBUG CriaAlertaSolarwinds:167 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-21 22:03:00 DEBUG CriaAlertaSolarwinds:168 - AlertObject=appdynamics
+2016-06-21 22:03:09 INFO  CriaAlertaSolarwinds:86 - Inicia Conexão do Banco de Dados
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:49 - Parametros
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[1]=14
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[3]=1
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[4]=ERROR
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[5]=Solar
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[6]=Erros
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[7]=75
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[8]=5
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[9]=BUSINESS_TRANSACTION
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[10]=/exception
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[11]=137
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[12]=1
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[13]=APPLICATION
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[15]=14
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[16]=1
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[17]=APPLICATION
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[19]=14
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[20]=condition 1
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[21]=274
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[22]=GREATER_THAN
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[23]=ABSOLUTE
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[24]=2.0
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[25]=10.0
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[27]=106
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[30]=ACCOUNT
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:51 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-21 22:06:29 INFO  CriaAlertaSolarwinds:80 - Carrega properties
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:152 - Valores config.properties
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:165 - BDSolawinds=192.168.56.71
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:166 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:167 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-21 22:06:29 DEBUG CriaAlertaSolarwinds:168 - AlertObject=appdynamics
+2016-06-21 22:06:29 INFO  CriaAlertaSolarwinds:86 - Inicia Conexão do Banco de Dados
+2016-06-21 22:06:29 ERROR CriaAlertaSolarwinds:142 - Erro de SQL=com.microsoft.sqlserver.jdbc.SQLServerException: The driver could not establish a secure connection to SQL Server by using Secure Sockets Layer (SSL) encryption. Error: "Signature algorithm mismatch". ClientConnectionId:9ae9f183-1ab6-4a79-bf65-376dc0d5c302
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:49 - Parametros
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[1]=14
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[3]=1
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[4]=ERROR
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[5]=Solar
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[6]=Erros
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[7]=75
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[8]=5
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[9]=BUSINESS_TRANSACTION
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[10]=/exception
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[11]=137
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[12]=1
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[13]=APPLICATION
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[15]=14
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[16]=1
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[17]=APPLICATION
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[19]=14
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[20]=condition 1
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[21]=274
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[22]=GREATER_THAN
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[23]=ABSOLUTE
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[24]=2.0
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[25]=10.0
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[27]=106
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[30]=ACCOUNT
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:51 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-21 22:12:35 INFO  CriaAlertaSolarwinds:80 - Carrega properties
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:153 - Valores config.properties
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:166 - BDSolawinds=192.168.56.71
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:167 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:168 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-21 22:12:35 DEBUG CriaAlertaSolarwinds:169 - AlertObject=appdynamics
+2016-06-21 22:12:35 INFO  CriaAlertaSolarwinds:86 - Inicia Conexão do Banco de Dados
+2016-06-21 22:12:35 ERROR CriaAlertaSolarwinds:143 - Erro de SQL=com.microsoft.sqlserver.jdbc.SQLServerException: The driver could not establish a secure connection to SQL Server by using Secure Sockets Layer (SSL) encryption. Error: "Signature algorithm mismatch". ClientConnectionId:2cb88373-c3c6-4f5e-b190-89b21d0095ae
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:49 - Parametros
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[1]=14
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[3]=1
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[4]=ERROR
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[5]=Solar
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[6]=Erros
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[7]=75
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[8]=5
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[9]=BUSINESS_TRANSACTION
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[10]=/exception
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[11]=137
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[12]=1
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[13]=APPLICATION
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[15]=14
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[16]=1
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[17]=APPLICATION
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[19]=14
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[20]=condition 1
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[21]=274
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[22]=GREATER_THAN
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[23]=ABSOLUTE
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[24]=2.0
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[25]=10.0
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[27]=106
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[30]=ACCOUNT
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:51 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-21 22:13:17 INFO  CriaAlertaSolarwinds:80 - Carrega properties
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:153 - Valores config.properties
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:166 - BDSolawinds=192.168.56.71
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:167 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:168 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-21 22:13:17 DEBUG CriaAlertaSolarwinds:169 - AlertObject=appdynamics
+2016-06-21 22:13:17 INFO  CriaAlertaSolarwinds:86 - Inicia Conexão do Banco de Dados
+2016-06-21 22:13:17 ERROR CriaAlertaSolarwinds:143 - Erro de SQL=com.microsoft.sqlserver.jdbc.SQLServerException: The driver could not establish a secure connection to SQL Server by using Secure Sockets Layer (SSL) encryption. Error: "Signature algorithm mismatch". ClientConnectionId:ca349b19-011b-41d9-82ba-0954102b2da6
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:49 - Parametros
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[1]=14
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[3]=1
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[4]=ERROR
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[5]=Solar
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[6]=Erros
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[7]=75
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[8]=5
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[9]=BUSINESS_TRANSACTION
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[10]=/exception
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[11]=137
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[12]=1
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[13]=APPLICATION
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[15]=14
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[16]=1
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[17]=APPLICATION
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[19]=14
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[20]=condition 1
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[21]=274
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[22]=GREATER_THAN
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[23]=ABSOLUTE
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[24]=2.0
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[25]=10.0
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[27]=106
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[30]=ACCOUNT
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:51 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-21 22:14:34 INFO  CriaAlertaSolarwinds:80 - Carrega properties
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:153 - Valores config.properties
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:166 - BDSolawinds=192.168.56.71
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:167 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:168 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-21 22:14:34 DEBUG CriaAlertaSolarwinds:169 - AlertObject=appdynamics
+2016-06-21 22:14:35 INFO  CriaAlertaSolarwinds:86 - Inicia Conexão do Banco de Dados
+2016-06-21 22:14:35 ERROR CriaAlertaSolarwinds:143 - Erro de SQL=com.microsoft.sqlserver.jdbc.SQLServerException: The driver could not establish a secure connection to SQL Server by using Secure Sockets Layer (SSL) encryption. Error: "Signature algorithm mismatch". ClientConnectionId:dbb9de20-e4ac-4018-a681-8598dc158025
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:49 - Parametros
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[1]=14
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[3]=1
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[4]=ERROR
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[5]=Solar
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[6]=Erros
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[7]=75
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[8]=5
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[9]=BUSINESS_TRANSACTION
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[10]=/exception
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[11]=137
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[12]=1
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[13]=APPLICATION
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[15]=14
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[16]=1
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[17]=APPLICATION
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[19]=14
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[20]=condition 1
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[21]=274
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[22]=GREATER_THAN
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[23]=ABSOLUTE
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[24]=2.0
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[25]=10.0
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[27]=106
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[30]=ACCOUNT
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:51 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-21 22:16:57 INFO  CriaAlertaSolarwinds:80 - Carrega properties
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:153 - Valores config.properties
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:166 - BDSolawinds=192.168.56.71
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:167 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:168 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-21 22:16:57 DEBUG CriaAlertaSolarwinds:169 - AlertObject=appdynamics
+2016-06-21 22:16:57 INFO  CriaAlertaSolarwinds:86 - Inicia Conexão do Banco de Dados
+2016-06-21 22:16:57 ERROR CriaAlertaSolarwinds:143 - Erro de SQL=com.microsoft.sqlserver.jdbc.SQLServerException: The driver could not establish a secure connection to SQL Server by using Secure Sockets Layer (SSL) encryption. Error: "Signature algorithm mismatch". ClientConnectionId:603d7aa2-e235-4b63-a7c5-13420980f387
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:49 - Parametros
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[1]=14
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[3]=1
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[4]=ERROR
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[5]=Solar
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[6]=Erros
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[7]=75
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[8]=5
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[9]=BUSINESS_TRANSACTION
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[10]=/exception
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[11]=137
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[12]=1
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[13]=APPLICATION
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[15]=14
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[16]=1
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[17]=APPLICATION
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[19]=14
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[20]=condition 1
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[21]=274
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[22]=GREATER_THAN
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[23]=ABSOLUTE
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[24]=2.0
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[25]=10.0
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[27]=106
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[30]=ACCOUNT
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:51 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-21 22:18:27 INFO  CriaAlertaSolarwinds:80 - Carrega properties
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:153 - Valores config.properties
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:166 - BDSolawinds=192.168.56.71
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:167 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:168 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-21 22:18:27 DEBUG CriaAlertaSolarwinds:169 - AlertObject=appdynamics
+2016-06-21 22:18:27 INFO  CriaAlertaSolarwinds:86 - Inicia Conexão do Banco de Dados
+2016-06-21 22:18:27 ERROR CriaAlertaSolarwinds:143 - Erro de SQL=com.microsoft.sqlserver.jdbc.SQLServerException: The driver could not establish a secure connection to SQL Server by using Secure Sockets Layer (SSL) encryption. Error: "Signature algorithm mismatch". ClientConnectionId:2531f707-f0b8-40d2-ade8-a3dc4d577b88
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:49 - Parametros
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[1]=14
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[3]=1
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[4]=ERROR
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[5]=Solar
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[6]=Erros
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[7]=75
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[8]=5
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[9]=BUSINESS_TRANSACTION
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[10]=/exception
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[11]=137
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[12]=1
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[13]=APPLICATION
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[15]=14
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[16]=1
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[17]=APPLICATION
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[19]=14
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[20]=condition 1
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[21]=274
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[22]=GREATER_THAN
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[23]=ABSOLUTE
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[24]=2.0
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[25]=10.0
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[27]=106
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[30]=ACCOUNT
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:51 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-21 22:21:45 INFO  CriaAlertaSolarwinds:80 - Carrega properties
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:153 - Valores config.properties
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:166 - BDSolawinds=192.168.56.71
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:167 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:168 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-21 22:21:45 DEBUG CriaAlertaSolarwinds:169 - AlertObject=appdynamics
+2016-06-21 22:21:46 INFO  CriaAlertaSolarwinds:86 - Inicia Conexão do Banco de Dados
+2016-06-21 22:21:46 ERROR CriaAlertaSolarwinds:143 - Erro de SQL=com.microsoft.sqlserver.jdbc.SQLServerException: The driver could not establish a secure connection to SQL Server by using Secure Sockets Layer (SSL) encryption. Error: "Signature algorithm mismatch". ClientConnectionId:a65c89aa-5eb4-4c17-a636-70c6ba591ca2
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:62 - Parametros
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[1]=14
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[3]=1
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[4]=ERROR
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[5]=Solar
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[6]=Erros
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[7]=75
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[8]=5
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[9]=BUSINESS_TRANSACTION
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[10]=/exception
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[11]=137
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[12]=1
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[13]=APPLICATION
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[15]=14
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[16]=1
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[17]=APPLICATION
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[19]=14
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[20]=condition 1
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[21]=274
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[22]=GREATER_THAN
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[23]=ABSOLUTE
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[24]=2.0
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[25]=10.0
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[27]=106
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[30]=ACCOUNT
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:64 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-21 23:02:03 INFO  CriaAlertaSolarwinds:93 - Carrega properties
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:227 - Valores config.properties
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:240 - BDSolawinds=192.168.56.71
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:241 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:242 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-21 23:02:03 DEBUG CriaAlertaSolarwinds:243 - AlertObject=appdynamics
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:62 - Parametros
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[1]=14
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[3]=1
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[4]=ERROR
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[5]=Solar
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[6]=Erros
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[7]=75
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[8]=5
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[9]=BUSINESS_TRANSACTION
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[10]=/exception
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[11]=137
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[12]=1
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[13]=APPLICATION
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[15]=14
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[16]=1
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[17]=APPLICATION
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[19]=14
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[20]=condition 1
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[21]=274
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[22]=GREATER_THAN
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[23]=ABSOLUTE
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[24]=2.0
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[25]=10.0
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[27]=106
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[30]=ACCOUNT
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:64 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-21 23:03:04 INFO  CriaAlertaSolarwinds:93 - Carrega properties
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:227 - Valores config.properties
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:240 - BDSolawinds=192.168.56.71
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:241 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:242 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-21 23:03:04 DEBUG CriaAlertaSolarwinds:243 - AlertObject=appdynamics
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:62 - Parametros
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[1]=14
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[3]=1
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[4]=ERROR
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[5]=Solar
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[6]=Erros
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[7]=75
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[8]=5
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[9]=BUSINESS_TRANSACTION
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[10]=/exception
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[11]=137
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[12]=1
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[13]=APPLICATION
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[15]=14
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[16]=1
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[17]=APPLICATION
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[19]=14
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[20]=condition 1
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[21]=274
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[22]=GREATER_THAN
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[23]=ABSOLUTE
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[24]=2.0
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[25]=10.0
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[27]=106
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[30]=ACCOUNT
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:64 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-21 23:03:20 INFO  CriaAlertaSolarwinds:93 - Carrega properties
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:227 - Valores config.properties
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:240 - BDSolawinds=192.168.56.71
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:241 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:242 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-21 23:03:20 DEBUG CriaAlertaSolarwinds:243 - AlertObject=appdynamics
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:62 - Parametros
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[1]=14
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[3]=1
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[4]=ERROR
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[5]=Solar
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[6]=Erros
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[7]=75
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[8]=5
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[9]=BUSINESS_TRANSACTION
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[10]=/exception
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[11]=137
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[12]=1
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[13]=APPLICATION
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[15]=14
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[16]=1
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[17]=APPLICATION
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[19]=14
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[20]=condition 1
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[21]=274
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[22]=GREATER_THAN
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[23]=ABSOLUTE
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[24]=2.0
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[25]=10.0
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[27]=106
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[30]=ACCOUNT
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:64 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-21 23:07:36 INFO  CriaAlertaSolarwinds:93 - Carrega properties
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:229 - Valores config.properties
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:242 - BDSolawinds=192.168.56.71
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:243 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:244 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-21 23:07:36 DEBUG CriaAlertaSolarwinds:245 - AlertObject=appdynamics
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:62 - Parametros
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[1]=14
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[3]=1
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[4]=ERROR
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[5]=Solar
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[6]=Erros
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[7]=75
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[8]=5
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[9]=BUSINESS_TRANSACTION
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[10]=/exception
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[11]=137
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[12]=1
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[13]=APPLICATION
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[15]=14
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[16]=1
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[17]=APPLICATION
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[19]=14
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[20]=condition 1
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[21]=274
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[22]=GREATER_THAN
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[23]=ABSOLUTE
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[24]=2.0
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[25]=10.0
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[27]=106
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[30]=ACCOUNT
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:64 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-21 23:12:09 INFO  CriaAlertaSolarwinds:93 - Carrega properties
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:256 - Valores config.properties
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:269 - BDSolawinds=192.168.56.71
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:270 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:271 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-21 23:12:09 DEBUG CriaAlertaSolarwinds:272 - AlertObject=appdynamics
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:62 - Parametros
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[1]=14
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[3]=1
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[4]=ERROR
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[5]=Solar
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[6]=Erros
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[7]=75
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[8]=5
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[9]=BUSINESS_TRANSACTION
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[10]=/exception
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[11]=137
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[12]=1
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[13]=APPLICATION
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[15]=14
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[16]=1
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[17]=APPLICATION
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[19]=14
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[20]=condition 1
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[21]=274
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[22]=GREATER_THAN
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[23]=ABSOLUTE
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[24]=2.0
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[25]=10.0
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[27]=106
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[30]=ACCOUNT
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:64 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-21 23:12:48 INFO  CriaAlertaSolarwinds:93 - Carrega properties
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:257 - Valores config.properties
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:270 - BDSolawinds=192.168.56.71
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:271 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:272 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-21 23:12:48 DEBUG CriaAlertaSolarwinds:273 - AlertObject=appdynamics
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:62 - Parametros
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[1]=14
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[3]=1
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[4]=ERROR
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[5]=Solar
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[6]=Erros
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[7]=75
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[8]=5
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[9]=BUSINESS_TRANSACTION
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[10]=/exception
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[11]=137
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[12]=1
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[13]=APPLICATION
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[15]=14
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[16]=1
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[17]=APPLICATION
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[19]=14
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[20]=condition 1
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[21]=274
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[22]=GREATER_THAN
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[23]=ABSOLUTE
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[24]=2.0
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[25]=10.0
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[27]=106
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[30]=ACCOUNT
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:64 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-21 23:13:41 INFO  CriaAlertaSolarwinds:93 - Carrega properties
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:258 - Valores config.properties
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:271 - BDSolawinds=192.168.56.71
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:272 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:273 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-21 23:13:41 DEBUG CriaAlertaSolarwinds:274 - AlertObject=appdynamics
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:62 - Parametros
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[1]=14
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[3]=1
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[4]=ERROR
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[5]=Solar
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[6]=Erros
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[7]=75
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[8]=5
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[9]=BUSINESS_TRANSACTION
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[10]=/exception
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[11]=137
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[12]=1
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[13]=APPLICATION
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[15]=14
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[16]=1
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[17]=APPLICATION
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[19]=14
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[20]=condition 1
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[21]=274
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[22]=GREATER_THAN
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[23]=ABSOLUTE
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[24]=2.0
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[25]=10.0
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[27]=106
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[30]=ACCOUNT
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:64 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-21 23:14:15 INFO  CriaAlertaSolarwinds:93 - Carrega properties
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:266 - Valores config.properties
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:279 - BDSolawinds=192.168.56.71
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:280 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:281 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-21 23:14:15 DEBUG CriaAlertaSolarwinds:282 - AlertObject=appdynamics
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:62 - Parametros
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[1]=14
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[3]=1
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[4]=ERROR
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[5]=Solar
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[6]=Erros
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[7]=75
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[8]=5
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[9]=BUSINESS_TRANSACTION
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[10]=/exception
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[11]=137
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[12]=1
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[13]=APPLICATION
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[15]=14
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[16]=1
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[17]=APPLICATION
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[19]=14
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[20]=condition 1
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[21]=274
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[22]=GREATER_THAN
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[23]=ABSOLUTE
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[24]=2.0
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[25]=10.0
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[27]=106
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[30]=ACCOUNT
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:64 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-21 23:14:48 INFO  CriaAlertaSolarwinds:93 - Carrega properties
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:267 - Valores config.properties
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:280 - BDSolawinds=192.168.56.71
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:281 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:282 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-21 23:14:48 DEBUG CriaAlertaSolarwinds:283 - AlertObject=appdynamics
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:62 - Parametros
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[1]=14
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[3]=1
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[4]=ERROR
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[5]=Solar
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[6]=Erros
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[7]=75
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[8]=5
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[9]=BUSINESS_TRANSACTION
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[10]=/exception
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[11]=137
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[12]=1
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[13]=APPLICATION
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[15]=14
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[16]=1
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[17]=APPLICATION
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[19]=14
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[20]=condition 1
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[21]=274
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[22]=GREATER_THAN
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[23]=ABSOLUTE
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[24]=2.0
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[25]=10.0
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[27]=106
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[30]=ACCOUNT
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:64 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-21 23:15:04 INFO  CriaAlertaSolarwinds:93 - Carrega properties
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:267 - Valores config.properties
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:280 - BDSolawinds=192.168.56.71
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:281 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:282 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-21 23:15:04 DEBUG CriaAlertaSolarwinds:283 - AlertObject=appdynamics
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:62 - Parametros
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[1]=14
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[3]=1
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[4]=ERROR
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[5]=Solar
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[6]=Erros
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[7]=75
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[8]=5
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[9]=BUSINESS_TRANSACTION
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[10]=/exception
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[11]=137
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[12]=1
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[13]=APPLICATION
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[15]=14
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[16]=1
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[17]=APPLICATION
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[19]=14
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[20]=condition 1
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[21]=274
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[22]=GREATER_THAN
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[23]=ABSOLUTE
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[24]=2.0
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[25]=10.0
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[27]=106
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[30]=ACCOUNT
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:64 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-21 23:28:01 INFO  CriaAlertaSolarwinds:93 - Carrega properties
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:267 - Valores config.properties
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:280 - BDSolawinds=192.168.56.71
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:281 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:282 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-21 23:28:01 DEBUG CriaAlertaSolarwinds:283 - AlertObject=appdynamics
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:66 - Parametros
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[1]=14
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[3]=1
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[4]=ERROR
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[5]=Solar
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[6]=Erros
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[7]=75
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[8]=5
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[9]=BUSINESS_TRANSACTION
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[10]=/exception
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[11]=137
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[12]=1
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[13]=APPLICATION
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[15]=14
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[16]=1
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[17]=APPLICATION
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[19]=14
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[20]=condition 1
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[21]=274
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[22]=GREATER_THAN
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[23]=ABSOLUTE
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[24]=2.0
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[25]=10.0
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[27]=106
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[30]=ACCOUNT
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:68 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-21 23:54:09 INFO  CriaAlertaSolarwinds:97 - Carrega properties
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:237 - Valores config.properties
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:250 - BDSolawinds=192.168.56.71
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:251 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:252 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-21 23:54:09 DEBUG CriaAlertaSolarwinds:253 - AlertObject=appdynamics
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:66 - Parametros
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[1]=14
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[3]=1
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[4]=ERROR
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[5]=Solar
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[6]=Erros
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[7]=75
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[8]=5
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[9]=BUSINESS_TRANSACTION
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[10]=/exception
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[11]=137
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[12]=1
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[13]=APPLICATION
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[15]=14
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[16]=1
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[17]=APPLICATION
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[19]=14
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[20]=condition 1
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[21]=274
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[22]=GREATER_THAN
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[23]=ABSOLUTE
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[24]=2.0
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[25]=10.0
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[27]=106
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[30]=ACCOUNT
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:68 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-21 23:54:48 INFO  CriaAlertaSolarwinds:97 - Carrega properties
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:237 - Valores config.properties
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:250 - BDSolawinds=192.168.56.71
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:251 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:252 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-21 23:54:48 DEBUG CriaAlertaSolarwinds:253 - AlertObject=appdynamics
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:67 - Parametros
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[1]=14
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[3]=1
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[4]=ERROR
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[5]=Solar
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[6]=Erros
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[7]=75
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[8]=5
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[9]=BUSINESS_TRANSACTION
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[10]=/exception
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[11]=137
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[12]=1
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[13]=APPLICATION
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[15]=14
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[16]=1
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[17]=APPLICATION
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[19]=14
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[20]=condition 1
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[21]=274
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[22]=GREATER_THAN
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[23]=ABSOLUTE
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[24]=2.0
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[25]=10.0
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[27]=106
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[30]=ACCOUNT
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:69 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-21 23:57:02 INFO  CriaAlertaSolarwinds:98 - Carrega properties
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:239 - Valores config.properties
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:252 - BDSolawinds=192.168.56.71
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:253 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:254 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-21 23:57:02 DEBUG CriaAlertaSolarwinds:255 - AlertObject=appdynamics
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:64 - Parametros
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[1]=14
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[3]=1
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[4]=ERROR
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[5]=Solar
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[6]=Erros
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[7]=75
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[8]=5
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[9]=BUSINESS_TRANSACTION
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[10]=/exception
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[11]=137
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[12]=1
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[13]=APPLICATION
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[15]=14
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[16]=1
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[17]=APPLICATION
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[19]=14
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[20]=condition 1
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[21]=274
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[22]=GREATER_THAN
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[23]=ABSOLUTE
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[24]=2.0
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[25]=10.0
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[27]=106
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[30]=ACCOUNT
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:66 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-22 00:08:34 INFO  CriaAlertaSolarwinds:95 - Carrega properties
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:226 - Valores config.properties
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:239 - BDSolawinds=192.168.56.71
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:240 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:241 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-22 00:08:34 DEBUG CriaAlertaSolarwinds:242 - AlertObject=appdynamics
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:64 - Parametros
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[1]=14
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[3]=1
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[4]=ERROR
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[5]=Solar
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[6]=Erros
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[7]=75
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[8]=5
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[9]=BUSINESS_TRANSACTION
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[10]=/exception
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[11]=137
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[12]=1
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[13]=APPLICATION
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[15]=14
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[16]=1
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[17]=APPLICATION
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[19]=14
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[20]=condition 1
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[21]=274
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[22]=GREATER_THAN
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[23]=ABSOLUTE
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[24]=2.0
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[25]=10.0
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[27]=106
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[30]=ACCOUNT
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:66 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-22 00:08:48 INFO  CriaAlertaSolarwinds:95 - Carrega properties
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:226 - Valores config.properties
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:239 - BDSolawinds=192.168.56.71
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:240 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:241 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-22 00:08:48 DEBUG CriaAlertaSolarwinds:242 - AlertObject=appdynamics
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:64 - Parametros
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[1]=14
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[3]=1
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[4]=ERROR
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[5]=Solar
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[6]=Erros
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[7]=75
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[8]=5
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[9]=BUSINESS_TRANSACTION
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[10]=/exception
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[11]=137
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[12]=1
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[13]=APPLICATION
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[15]=14
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[16]=1
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[17]=APPLICATION
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[19]=14
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[20]=condition 1
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[21]=274
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[22]=GREATER_THAN
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[23]=ABSOLUTE
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[24]=2.0
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[25]=10.0
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[27]=106
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[30]=ACCOUNT
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:66 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-22 00:09:08 INFO  CriaAlertaSolarwinds:95 - Carrega properties
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:226 - Valores config.properties
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:239 - BDSolawinds=192.168.56.71
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:240 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:241 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-22 00:09:08 DEBUG CriaAlertaSolarwinds:242 - AlertObject=appdynamics
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:64 - Parametros
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[1]=14
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[3]=1
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[4]=ERROR
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[5]=Solar
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[6]=Erros
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[7]=75
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[8]=5
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[9]=BUSINESS_TRANSACTION
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[10]=/exception
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[11]=137
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[12]=1
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[13]=APPLICATION
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[15]=14
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[16]=1
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[17]=APPLICATION
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[19]=14
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[20]=condition 1
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[21]=274
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[22]=GREATER_THAN
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[23]=ABSOLUTE
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[24]=2.0
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[25]=10.0
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[27]=106
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[30]=ACCOUNT
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:66 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-22 00:09:36 INFO  CriaAlertaSolarwinds:95 - Carrega properties
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:226 - Valores config.properties
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:239 - BDSolawinds=192.168.56.71
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:240 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:241 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-22 00:09:36 DEBUG CriaAlertaSolarwinds:242 - AlertObject=appdynamics
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:68 - Parametros
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[1]=14
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[3]=1
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[4]=ERROR
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[5]=Solar
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[6]=Erros
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[7]=75
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[8]=5
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[9]=BUSINESS_TRANSACTION
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[10]=/exception
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[11]=137
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[12]=1
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[13]=APPLICATION
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[15]=14
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[16]=1
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[17]=APPLICATION
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[19]=14
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[20]=condition 1
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[21]=274
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[22]=GREATER_THAN
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[23]=ABSOLUTE
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[24]=2.0
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[25]=10.0
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[27]=106
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[30]=ACCOUNT
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:70 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-22 00:17:09 INFO  CriaAlertaSolarwinds:99 - Carrega properties
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:245 - Valores config.properties
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:258 - BDSolawinds=192.168.56.71
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:259 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:260 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-22 00:17:09 DEBUG CriaAlertaSolarwinds:261 - AlertObject=appdynamics
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:68 - Parametros
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[1]=14
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[3]=1
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[4]=ERROR
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[5]=Solar
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[6]=Erros
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[7]=75
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[8]=5
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[9]=BUSINESS_TRANSACTION
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[10]=/exception
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[11]=137
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[12]=1
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[13]=APPLICATION
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[15]=14
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[16]=1
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[17]=APPLICATION
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[19]=14
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[20]=condition 1
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[21]=274
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[22]=GREATER_THAN
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[23]=ABSOLUTE
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[24]=2.0
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[25]=10.0
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[27]=106
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[30]=ACCOUNT
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:70 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-22 00:17:31 INFO  CriaAlertaSolarwinds:99 - Carrega properties
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:245 - Valores config.properties
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:258 - BDSolawinds=192.168.56.71
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:259 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:260 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-22 00:17:31 DEBUG CriaAlertaSolarwinds:261 - AlertObject=appdynamics
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:68 - Parametros
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[1]=14
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[3]=1
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[4]=ERROR
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[5]=Solar
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[6]=Erros
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[7]=75
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[8]=5
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[9]=BUSINESS_TRANSACTION
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[10]=/exception
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[11]=137
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[12]=1
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[13]=APPLICATION
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[15]=14
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[16]=1
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[17]=APPLICATION
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[19]=14
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[20]=condition 1
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[21]=274
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[22]=GREATER_THAN
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[23]=ABSOLUTE
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[24]=2.0
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[25]=10.0
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[27]=106
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[30]=ACCOUNT
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:70 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-22 00:19:10 INFO  CriaAlertaSolarwinds:99 - Carrega properties
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:245 - Valores config.properties
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:258 - BDSolawinds=192.168.56.71
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:259 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:260 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-22 00:19:10 DEBUG CriaAlertaSolarwinds:261 - AlertObject=appdynamics
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:68 - Parametros
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[1]=14
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[3]=1
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[4]=ERROR
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[5]=Solar
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[6]=Erros
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[7]=75
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[8]=5
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[9]=BUSINESS_TRANSACTION
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[10]=/exception
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[11]=137
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[12]=1
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[13]=APPLICATION
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[15]=14
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[16]=1
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[17]=APPLICATION
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[19]=14
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[20]=condition 1
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[21]=274
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[22]=GREATER_THAN
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[23]=ABSOLUTE
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[24]=2.0
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[25]=10.0
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[27]=106
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[30]=ACCOUNT
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:70 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-22 00:19:37 INFO  CriaAlertaSolarwinds:99 - Carrega properties
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:245 - Valores config.properties
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:258 - BDSolawinds=192.168.56.71
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:259 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:260 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-22 00:19:37 DEBUG CriaAlertaSolarwinds:261 - AlertObject=appdynamics
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:68 - Parametros
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[1]=14
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[3]=1
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[4]=ERROR
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[5]=Solar
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[6]=Erros
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[7]=75
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[8]=5
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[9]=BUSINESS_TRANSACTION
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[10]=/exception
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[11]=137
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[12]=1
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[13]=APPLICATION
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[15]=14
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[16]=1
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[17]=APPLICATION
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[19]=14
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[20]=condition 1
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[21]=274
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[22]=GREATER_THAN
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[23]=ABSOLUTE
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[24]=2.0
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[25]=10.0
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[27]=106
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[30]=ACCOUNT
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:70 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-22 00:20:39 INFO  CriaAlertaSolarwinds:99 - Carrega properties
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:245 - Valores config.properties
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:258 - BDSolawinds=192.168.56.71
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:259 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:260 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-22 00:20:39 DEBUG CriaAlertaSolarwinds:261 - AlertObject=appdynamics
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:68 - Parametros
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[1]=14
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[3]=1
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[4]=ERROR
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[5]=Solar
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[6]=Erros
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[7]=75
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[8]=5
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[9]=BUSINESS_TRANSACTION
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[10]=/exception
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[11]=137
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[12]=1
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[13]=APPLICATION
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[15]=14
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[16]=1
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[17]=APPLICATION
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[19]=14
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[20]=condition 1
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[21]=274
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[22]=GREATER_THAN
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[23]=ABSOLUTE
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[24]=2.0
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[25]=10.0
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[27]=106
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[30]=ACCOUNT
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:70 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-22 00:22:38 INFO  CriaAlertaSolarwinds:99 - Carrega properties
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:245 - Valores config.properties
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:258 - BDSolawinds=192.168.56.71
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:259 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:260 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-22 00:22:38 DEBUG CriaAlertaSolarwinds:261 - AlertObject=appdynamics
+2016-06-22 00:22:38 INFO  CriaAlertaSolarwinds:148 - Insere AlertObjects
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:68 - Parametros
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[1]=14
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[3]=1
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[4]=ERROR
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[5]=Solar
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[6]=Erros
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[7]=75
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[8]=5
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[9]=BUSINESS_TRANSACTION
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[10]=/exception
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[11]=137
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[12]=1
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[13]=APPLICATION
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[15]=14
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[16]=1
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[17]=APPLICATION
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[19]=14
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[20]=condition 1
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[21]=274
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[22]=GREATER_THAN
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[23]=ABSOLUTE
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[24]=2.0
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[25]=10.0
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[27]=106
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[30]=ACCOUNT
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:70 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-22 00:26:51 INFO  CriaAlertaSolarwinds:99 - Carrega properties
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:229 - Valores config.properties
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:242 - BDSolawinds=192.168.56.71
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:243 - UserDBSolarwinds=SolarWindsOrionDatabaseUser
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:244 - PassDBSolarwinds=YzBg6y6TsXapcQvSK2cz+w==
+2016-06-22 00:26:51 DEBUG CriaAlertaSolarwinds:245 - AlertObject=appdynamics
+2016-06-22 00:26:51 INFO  CriaAlertaSolarwinds:131 - Insere AlertObjects
+2016-06-22 00:26:52 INFO  CriaAlertaSolarwinds:149 - Cria Alerta
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:68 - Parametros
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[1]=14
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[3]=1
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[4]=ERROR
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[5]=Solar
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[6]=Erros
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[7]=75
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[8]=5
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[9]=BUSINESS_TRANSACTION
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[10]=/exception
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[11]=137
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[12]=1
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[13]=APPLICATION
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[15]=14
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[16]=1
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[17]=APPLICATION
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[19]=14
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[20]=condition 1
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[21]=274
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[22]=GREATER_THAN
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[23]=ABSOLUTE
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[24]=2.0
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[25]=10.0
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[27]=106
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[30]=ACCOUNT
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:70 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-22 00:32:58 INFO  CriaAlertaSolarwinds:99 - Carrega properties
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:229 - Valores config.properties
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:242 - Solawinds=192.168.56.71
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:243 - UserSolarwinds=admin
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:244 - PassSolarwinds=
+2016-06-22 00:32:58 DEBUG CriaAlertaSolarwinds:245 - AlertObject=appdynamics
+2016-06-22 00:32:59 INFO  CriaAlertaSolarwinds:131 - Insere AlertObjects
+2016-06-22 00:32:59 INFO  CriaAlertaSolarwinds:149 - Cria Alerta
+2016-06-22 09:10:32 DEBUG CriaAlertaSolarwinds:68 - Parametros
+2016-06-22 09:10:32 DEBUG CriaAlertaSolarwinds:70 - Args[0]=password
+2016-06-22 09:10:32 DEBUG CriaAlertaSolarwinds:70 - Args[1]=@syrix123
+2016-06-22 09:11:48 DEBUG CriaAlertaSolarwinds:68 - Parametros
+2016-06-22 09:11:48 DEBUG CriaAlertaSolarwinds:70 - Args[0]=password
+2016-06-22 09:11:48 DEBUG CriaAlertaSolarwinds:70 - Args[1]=@syrix123
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:68 - Parametros
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[1]=14
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[3]=1
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[4]=ERROR
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[5]=Solar
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[6]=Erros
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[7]=75
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[8]=5
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[9]=BUSINESS_TRANSACTION
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[10]=/exception
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[11]=137
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[12]=1
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[13]=APPLICATION
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[15]=14
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[16]=1
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[17]=APPLICATION
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[19]=14
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[20]=condition 1
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[21]=274
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[22]=GREATER_THAN
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[23]=ABSOLUTE
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[24]=2.0
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[25]=10.0
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[27]=106
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[30]=ACCOUNT
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:70 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-22 09:12:08 INFO  CriaAlertaSolarwinds:100 - Carrega properties
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:234 - Valores config.properties
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:247 - Solawinds=192.168.56.71
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:248 - UserSolarwinds=admin
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:249 - PassSolarwinds=QHN5cml4MTIz
+2016-06-22 09:12:08 DEBUG CriaAlertaSolarwinds:250 - AlertObject=appdynamics
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:68 - Parametros
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[0]=AppDynamics Sample App (Linux)
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[1]=14
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[2]=Tue Jun 21 21:55:55 BRT 2016
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[3]=1
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[4]=ERROR
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[5]=Solar
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[6]=Erros
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[7]=75
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[8]=5
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[9]=BUSINESS_TRANSACTION
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[10]=/exception
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[11]=137
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[12]=1
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[13]=APPLICATION
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[14]=AppDynamics Sample App (Linux)
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[15]=14
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[16]=1
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[17]=APPLICATION
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[18]=AppDynamics Sample App (Linux)
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[19]=14
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[20]=condition 1
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[21]=274
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[22]=GREATER_THAN
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[23]=ABSOLUTE
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[24]=2.0
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[25]=10.0
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[26]=Erros triggered at Tue Jun 21 21:55:55 BRT 2016. This policy was violated because the following conditions were met for the /exception Business Transaction for the last 5 minute(s):   For Evaluation Entity: AppDynamics Sample App (Linux) Application - condition 1 is greater than 2.0. Observed value = 10.0
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[27]=106
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[28]=http://appdynamics:8090/controller/#location=APP_INCIDENT_DETAIL&incident=
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[29]=POLICY_OPEN_CRITICAL
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[30]=ACCOUNT
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:70 - Args[31]=customer1_650dcccd-7426-4456-b6ea-dc526247d74e
+2016-06-22 09:12:36 INFO  CriaAlertaSolarwinds:100 - Carrega properties
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:234 - Valores config.properties
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:247 - Solawinds=192.168.56.71
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:248 - UserSolarwinds=admin
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:249 - PassSolarwinds=
+2016-06-22 09:12:36 DEBUG CriaAlertaSolarwinds:250 - AlertObject=appdynamics
