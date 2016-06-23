@@ -81,7 +81,8 @@ public class CriaAlertaSolarwinds {
 		String query = "";
 		String strAlertID = "";
 		String strAlertObjectID = "";
-		String input = "[\"SELECT AlertID FROM AlertConfigurations WHERE AlertMessage = '"+args[0] + "." + args[10]+ "' and severity = " + strseverity + "\"]";
+		String input = "[\"SELECT AlertID FROM AlertConfigurations WHERE AlertMessage = '"+args[0].replace("\"", "") + "." + args[10].replace("\"", "")+ "' and severity = " + strseverity + "\"]";
+		logger.info("input=" + input);
 		String texto = RESTSolarWinds(input, "AlertID");
 
 		if (texto.contains("ERRO")) { System.exit(1); }
@@ -89,7 +90,7 @@ public class CriaAlertaSolarwinds {
 		if (texto.contains("{\"results\":[]}")) {
 			logger.info("Insere Alerta Configurations");
 			query = "INSERT INTO AlertConfigurations (AlertMessage,AlertRefID,Name,Description,Enabled,ObjectType,Frequency,BlockUntil,[Trigger],Reset,Severity,NotifyEnabled,NotificationSettings,LastEdit,CreatedBy,Category,Canned) ";
-			query += "SELECT '" + args[0] + "." + args[10] + "',NEWID(),'" + args[0] + "." + args[10] + "','" + args[0] + "." + args[10] + "'";
+			query += "SELECT '" + args[0].replace("\"", "") + "." + args[10].replace("\"", "") + "',NEWID(),'" + args[0].replace("\"", "") + "." + args[10].replace("\"", "") + "','" + args[0].replace("\"", "") + "." + args[10].replace("\"", "") + "'";
 			query += ",0,'APM: Component',60,'1900-01-01 00:00:00.000', [TRIGGER] , [Reset] ";
 			query += ","+ strseverity + ",1,null,GETUTCDATE(),'admin','',0 FROM AlertConfigurations WHERE Name = 'AppDynamics'";
 
@@ -98,7 +99,7 @@ public class CriaAlertaSolarwinds {
 
 			if (texto.contains("ERRO")) { System.exit(1); }
 
-			input = "[\"SELECT AlertID FROM AlertConfigurations WHERE AlertMessage = '"+args[0] + "." + args[10]+ "' and severity = " + strseverity + "\"]";
+			input = "[\"SELECT AlertID FROM AlertConfigurations WHERE AlertMessage = '"+args[0].replace("\"", "") + "." + args[10].replace("\"", "") + "' and severity = " + strseverity + "\"]";
 			texto = RESTSolarWinds(input, "AlertID");
 
 			if (texto.contains("ERRO")) { System.exit(1); }
@@ -125,7 +126,12 @@ public class CriaAlertaSolarwinds {
 		strAlertObjectID = texto;
 		logger.info("Cria Alerta");
 		query = "INSERT INTO [AlertActive] (AlertObjectID, TriggeredDateTime, TriggeredMessage, Acknowledged, AcknowledgedBy, AcknowledgedDateTime)";
-		query += "VALUES(" + strAlertObjectID +", GETUTCDATE(), '"+args[26] + " - Link: " + args[28] + "', null, null, null)";
+		if (args.length > 20 ) {
+			query += "VALUES(" + strAlertObjectID +", GETUTCDATE(), '"+args[26].replace("\"", "") + " - Link: " + args[28].replace("\"", "") + "', null, null, null)";
+		} else
+		{
+			query += "VALUES(" + strAlertObjectID +", GETUTCDATE(), '"+args[17].replace("\"", "") + " - Link: " + args[18].replace("\"", "") + "', null, null, null)";
+		}
 		input = "[\""+ query + "\"]";
 		texto = RESTSolarWinds(input, "");
 
@@ -274,12 +280,12 @@ public class CriaAlertaSolarwinds {
 			BufferedReader br = new BufferedReader(new InputStreamReader(
 					(connection.getInputStream())));
 
-			System.out.println("Output from Server .... \n");
+			logger.debug("Output from Server .... \n");
 			String output;
 
 			while ((output = br.readLine()) != null) {
 				texto += output;
-				System.out.println(output);
+				logger.debug(output);
 			}
 			connection.disconnect();
 
@@ -300,6 +306,7 @@ public class CriaAlertaSolarwinds {
 				} catch (ParseException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
+					logger.error(e);
 
 				}
 			}
@@ -307,22 +314,27 @@ public class CriaAlertaSolarwinds {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 			texto = "ERRO";
+			logger.error(e);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 			texto = "ERRO";
+			logger.error(e);
 		} catch (KeyManagementException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 			texto = "ERRO";
+			logger.error(e);
 		} catch (NoSuchAlgorithmException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 			texto = "ERRO";
+			logger.error(e);
 		} catch (KeyStoreException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 			texto = "ERRO";
+			logger.error(e);
 		}
 		return texto;
 	}
