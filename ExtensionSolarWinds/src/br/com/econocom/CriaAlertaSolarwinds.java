@@ -41,6 +41,7 @@ public class CriaAlertaSolarwinds {
 		 * args[10] = BT
 		 * args[4] = Tipo (ErroR)
 		 * args[26] = Descricao
+		 * args[27] = IncidentID
 		 * args[28] = Deeplink
 		 */
 
@@ -127,7 +128,7 @@ public class CriaAlertaSolarwinds {
 		logger.info("Cria Alerta");
 		query = "INSERT INTO [AlertActive] (AlertObjectID, TriggeredDateTime, TriggeredMessage, Acknowledged, AcknowledgedBy, AcknowledgedDateTime)";
 		if (args.length > 20 ) {
-			query += "VALUES(" + strAlertObjectID +", GETUTCDATE(), '"+args[26].replace("\"", "") + " - Link: " + args[28].replace("\"", "") + "', null, null, null)";
+			query += "VALUES(" + strAlertObjectID +", GETUTCDATE(), '"+args[26].replace("\"", "") + " - Link: " + args[28].replace("\"", "") + args[27].replace("\"", "") + "', null, null, null)";
 		} else
 		{
 			query += "VALUES(" + strAlertObjectID +", GETUTCDATE(), '"+args[17].replace("\"", "") + " - Link: " + args[18].replace("\"", "") + "', null, null, null)";
