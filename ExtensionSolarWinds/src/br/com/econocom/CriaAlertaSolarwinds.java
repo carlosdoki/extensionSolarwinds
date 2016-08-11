@@ -82,9 +82,34 @@ public class CriaAlertaSolarwinds {
 		String query = "";
 		String strAlertID = "";
 		String strAlertObjectID = "";
-		String input = "[\"SELECT AlertID FROM AlertConfigurations WHERE AlertMessage = '"+args[0].replace("\"", "") + "." + args[10].replace("\"", "")+ "' and severity = " + strseverity + "\"]";
+
+		String input = "[\"SELECT AlertID FROM AlertConfigurations WHERE Name = 'AppDynamics'\"]";
 		logger.info("input=" + input);
 		String texto = RESTSolarWinds(input, "AlertID");
+
+		if (texto.contains("ERRO")) { System.exit(1); }
+
+		if (texto.contains("{\"results\":[]}")) {
+			logger.info("Insere Alerta Configurations");
+			query = "INSERT INTO AlertConfigurations (AlertMessage,AlertRefID,Name,Description,Enabled,ObjectType,Frequency,BlockUntil,[Trigger],Reset,Severity,NotifyEnabled,NotificationSettings,LastEdit,CreatedBy,Category,Canned) ";
+			query += "SELECT TOP 1 AlertMessage,NEWID(),'AppDynamics',Description,Enabled,ObjectType,Frequency,BlockUntil,[Trigger],Reset,Severity,NotifyEnabled,NotificationSettings,GETDATE(),CreatedBy,Category,Canned  FROM AlertConfigurations WHERE Name = 'Alert me when an application goes down' and ObjectType = 'APM: Application'";
+
+			input = "[\""+ query + "\"]";
+			texto = RESTSolarWinds(input, "");
+
+			if (texto.contains("ERRO")) { System.exit(1); }
+
+			input = "[\"SELECT AlertID FROM AlertConfigurations WHERE AlertMessage = '"+args[0].replace("\"", "") + "." + args[10].replace("\"", "") + "' and severity = " + strseverity + "\"]";
+			texto = RESTSolarWinds(input, "AlertID");
+
+			if (texto.contains("ERRO")) { System.exit(1); }
+		}
+
+		
+		
+		input = "[\"SELECT AlertID FROM AlertConfigurations WHERE AlertMessage = '"+args[0].replace("\"", "") + "." + args[10].replace("\"", "")+ "' and severity = " + strseverity + "\"]";
+		logger.info("input=" + input);
+		texto = RESTSolarWinds(input, "AlertID");
 
 		if (texto.contains("ERRO")) { System.exit(1); }
 
