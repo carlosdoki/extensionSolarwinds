@@ -43,6 +43,7 @@ public class CriaAlertaSolarwinds {
 		 * args[26] = Descricao
 		 * args[27] = IncidentID
 		 * args[28] = Deeplink
+		 * args[29] = EVENT_TYPE
 		 */
 
 		PropertyConfigurator.configure("log4j.properties");
@@ -82,10 +83,12 @@ public class CriaAlertaSolarwinds {
 		String query = "";
 		String strAlertID = "";
 		String strAlertObjectID = "";
+		String input = "";
+		String texto = "";
 
-		String input = "[\"SELECT AlertID FROM AlertConfigurations WHERE Name = 'AppDynamics'\"]";
+		input = "[\"SELECT AlertID FROM AlertConfigurations WHERE Name = 'AppDynamics'\"]";
 		logger.info("input=" + input);
-		String texto = RESTSolarWinds(input, "AlertID");
+		texto = RESTSolarWinds(input, "AlertID");
 
 		if (texto.contains("ERRO")) { System.exit(1); }
 
@@ -105,8 +108,6 @@ public class CriaAlertaSolarwinds {
 			if (texto.contains("ERRO")) { System.exit(1); }
 		}
 
-		
-		
 		input = "[\"SELECT AlertID FROM AlertConfigurations WHERE AlertMessage = '"+args[0].replace("\"", "") + "." + args[10].replace("\"", "")+ "' and severity = " + strseverity + "\"]";
 		logger.info("input=" + input);
 		texto = RESTSolarWinds(input, "AlertID");
@@ -150,13 +151,18 @@ public class CriaAlertaSolarwinds {
 		if (texto.contains("ERRO")) { System.exit(1); }
 
 		strAlertObjectID = texto;
-		logger.info("Cria Alerta");
-		query = "INSERT INTO [AlertActive] (AlertObjectID, TriggeredDateTime, TriggeredMessage, Acknowledged, AcknowledgedBy, AcknowledgedDateTime)";
-		if (args.length > 20 ) {
-			query += "VALUES(" + strAlertObjectID +", GETUTCDATE(), '"+args[26].replace("\"", "") + " - Link: " + args[28].replace("\"", "") + args[27].replace("\"", "") + "', null, null, null)";
-		} else
-		{
-			query += "VALUES(" + strAlertObjectID +", GETUTCDATE(), '"+args[17].replace("\"", "") + " - Link: " + args[18].replace("\"", "") + "', null, null, null)";
+		if (args[29].contains("CANCELED") || args[29].contains("CLOSE")) {
+			logger.info("Exclui Alerta");
+			query = "DELETE FROM [AlertActive] WHERE AlertObjectID = " + strAlertObjectID;
+		} else {
+			logger.info("Cria Alerta");
+			query = "INSERT INTO [AlertActive] (AlertObjectID, TriggeredDateTime, TriggeredMessage, Acknowledged, AcknowledgedBy, AcknowledgedDateTime)";
+			if (args.length > 20 ) {
+				query += "VALUES(" + strAlertObjectID +", GETUTCDATE(), '"+args[26].replace("\"", "") + " - Link: " + args[28].replace("\"", "") + args[27].replace("\"", "") + "', null, null, null)";
+			} else
+			{
+				query += "VALUES(" + strAlertObjectID +", GETUTCDATE(), '"+args[17].replace("\"", "") + " - Link: " + args[18].replace("\"", "") + "', null, null, null)";
+			}
 		}
 		input = "[\""+ query + "\"]";
 		texto = RESTSolarWinds(input, "");
@@ -227,6 +233,7 @@ public class CriaAlertaSolarwinds {
 			logger.error("Erro de SQL=" + e);
 		}
 		 */
+
 	}
 
 	private static void getProperties() {
