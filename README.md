@@ -3,7 +3,7 @@
 Extension AppDynamics to create Alert in console Solarwinds.
 
 #Requeriments
-Discovery server AppDynamics into Solarwinds
+Discovery server AppDynamics in Solarwinds
 
 #Install
 Edit the file or create custom.xml into <AppDynamics_HOME>/Controller/custom/action
@@ -25,6 +25,6 @@ Edit the file config.properties e put the information of Solarwinds.
 Solawinds=ip address or hostname
 UserSolarwinds=username
 PassSolarwinds=password
-AlertObject=name_hostname_server_appdynamics
+AlertObject=name_hostname_server_AppDynamics_Discovery_Soalrwinds
 ```
 Log on the UI Appdynamics and create a Action.
