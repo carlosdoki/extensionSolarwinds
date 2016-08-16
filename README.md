@@ -25,6 +25,6 @@ Edit the file config.properties e put the information of Solarwinds.
 Solawinds=ip address or hostname
 UserSolarwinds=username
 PassSolarwinds=password
-AlertObject=name_hostname_server_solarwinds
+AlertObject=name_hostname_server_appdynamics
 ```
 Log on the UI Appdynamics and create a Action.
